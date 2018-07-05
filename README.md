@@ -18,8 +18,8 @@ The altered version of ali-rds
 
 # What's different
 
-- Fixes tons of failing tests
-- adds a new option: `options.updates: string | Array<string>` to `db.insert(table, values, options)` which generates the additional `ON DUPLICATE KEY UPDATE` query suffix.
+- **Fixes tons of failing tests**
+- **Adds a new option**: `options.updates: string | Array<string>` to `db.insert(table, values, options)` which generates the additional `ON DUPLICATE KEY UPDATE` query suffix.
 
 ----
 
