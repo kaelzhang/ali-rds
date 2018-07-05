@@ -18,7 +18,14 @@ ali-rds
 [download-image]: https://img.shields.io/npm/dm/ali-rds.svg?style=flat-square
 [download-url]: https://npmjs.org/package/ali-rds
 
-Aliyun RDS client. Sub module of [ali-sdk](https://github.com/ali-sdk/ali-sdk).
+The altered version of ali-rds
+
+# What's different
+
+- Fixes tons of failing tests
+- adds a new option: `options.updates: string | Array<string>` to `db.insert(table, values, options)` which generates the additional `ON DUPLICATE KEY UPDATE` query suffix.
+
+----
 
 # RDS Usage
 

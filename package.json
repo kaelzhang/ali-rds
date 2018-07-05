@@ -1,6 +1,6 @@
 {
   "name": "@ostai/mysql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The altered version of ali-rds",
   "main": "lib/client.js",
   "files": [

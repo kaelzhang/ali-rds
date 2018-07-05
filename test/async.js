@@ -862,15 +862,15 @@ describe('async.test.js', function() {
 
   describe('insert on duplicate key update', function() {
     it('should throw error if duplicate', async function() {
-      let result = await this.db.insert(table, {
+      await this.db.insert(table, {
         name: prefix + 'kael',
-        email: prefix + 'i@kael.me'
+        email: prefix + 'i@kael.me',
       });
 
       try {
-        result = await this.db.insert(table, {
+        await this.db.insert(table, {
           name: prefix + 'kael',
-          email: prefix + 'i@kael.me'
+          email: prefix + 'i@kael.me',
         });
         throw new Error('should not run this');
       } catch (err) {
@@ -881,20 +881,20 @@ describe('async.test.js', function() {
     it('should throw error if duplicate', async function() {
       await this.db.insert(table, {
         name: prefix + 'kael2',
-        email: prefix + 'i@kael2.me'
+        email: prefix + 'i@kael2.me',
       });
 
       const result = await this.db.insert(table, {
         name: prefix + 'kael2',
-        email: prefix + 'i@kael3.me'
+        email: prefix + 'i@kael3.me',
       }, {
-        updates: ['email']
+        updates: [ 'email' ],
       });
 
       assert.equal(result.affectedRows, 2);
 
       const user = await this.db.get(table, {
-        name: prefix + 'kael2'
+        name: prefix + 'kael2',
       });
 
       assert.equal(user.email, prefix + 'i@kael3.me');
