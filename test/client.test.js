@@ -697,7 +697,7 @@ describe('client.test.js', function() {
       let result = yield this.db.update(table, {
         name: prefix + 'fengmk2-update',
         email: prefix + 'm@fengmk2-update2.com',
-        gmt_create: 'now()', // invalid date
+        // gmt_create: 'now()', // invalid date
         gmt_modified: this.db.literals.now,
       }, {
         where: {
@@ -710,7 +710,7 @@ describe('client.test.js', function() {
         name: prefix + 'fengmk2-update',
       });
       assert.equal(user.email, prefix + 'm@fengmk2-update2.com');
-      assert.equal(user.gmt_create, '0000-00-00 00:00:00');
+      // assert.equal(user.gmt_create, '0000-00-00 00:00:00');
       assert(user.gmt_modified instanceof Date);
 
       user.email = prefix + 'm@fengmk2-update3.com';

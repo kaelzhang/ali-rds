@@ -1,7 +1,7 @@
 {
   "name": "@ostai/mysql",
-  "version": "3.0.1",
-  "description": "Aliyun RDS client",
+  "version": "1.0.0",
+  "description": "The altered version of ali-rds",
   "main": "lib/client.js",
   "files": [
     "lib"
@@ -26,14 +26,14 @@
     "mocha": "*",
     "thunk-mocha": "*"
   },
-  "homepage": "https://github.com/ali-sdk/ali-rds",
+  "homepage": "https://github.com/kaelzhang/ostai-mysql",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ali-sdk/ali-rds.git",
-    "web": "https://github.com/ali-sdk/ali-rds"
+    "url": "git://github.com/kaelzhang/ostai-mysql.git",
+    "web": "https://github.com/kaelzhang/ostai-mysql"
   },
   "bugs": {
-    "url": "https://github.com/ali-sdk/ali-rds/issues",
+    "url": "https://github.com/kaelzhang/ostai-mysql/issues",
     "email": "m@fengmk2.com"
   },
   "keywords": [
@@ -42,6 +42,9 @@
   "engines": {
     "node": ">= 4.0.0"
   },
-  "author": "fengmk2 <m@fengmk2.com> (http://fengmk2.com)",
+  "author": [
+    "fengmk2 <m@fengmk2.com> (http://fengmk2.com)",
+    "kael <i@kael.me> (http://kael.me)"
+  ],
   "license": "MIT"
 }
