@@ -422,7 +422,7 @@ describe('async.test.js', function() {
     });
   });
 
-  describe('get(table, obj, options), select(table, options)', function() {
+  describe.only('get(table, obj, options), select(table, options)', function() {
     before(async function() {
       let result = await this.db.insert(table, {
         name: prefix + 'fengmk2-get',

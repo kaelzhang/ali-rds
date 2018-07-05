@@ -1,15 +1,58 @@
-*.seed
+# babel dist
+/lib
+
+# Numerous always-ignore extensions
+*.bak
+*.patch
+*.diff
+*.err
+*.orig
 *.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+*.lock
+*.rdb
+*.db
+nohup.out
+.nyc_output
+coverage.lcov
+package-lock.json
+*.tgz
 
-pids
-logs
-results
+# OS or Editor folders
+.DS_Store
+._*
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+thumbs.db
 
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
 node_modules
-npm-debug.log
+old/
+*-old/
+*-notrack/
+no-track/
+build/
+combo/
+reference/
+jscoverage_lib/
+temp/
+tmp/
+
+# codecov.io
 coverage/
