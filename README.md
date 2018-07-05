@@ -1,5 +1,4 @@
-ali-rds
-=======
+# @ostai/mysql
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,16 +6,14 @@ ali-rds
 [![David deps][david-image]][david-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/ali-rds.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/ali-rds
+[npm-image]: https://img.shields.io/npm/v/@ostai/mysql.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@ostai/mysql
 [travis-image]: https://img.shields.io/travis/kaelzhang/ostai-mysql.svg?style=flat-square
 [travis-url]: https://travis-ci.org/kaelzhang/ostai-mysql
 [codecov-image]: https://codecov.io/github/kaelzhang/ostai-mysql/coverage.svg?branch=master
 [codecov-url]: https://codecov.io/github/kaelzhang/ostai-mysql?branch=master
 [david-image]: https://img.shields.io/david/kaelzhang/ostai-mysql.svg?style=flat-square
 [david-url]: https://david-dm.org/kaelzhang/ostai-mysql
-[download-image]: https://img.shields.io/npm/dm/ali-rds.svg?style=flat-square
-[download-url]: https://npmjs.org/package/ali-rds
 
 The altered version of ali-rds
 
@@ -37,7 +34,7 @@ Support `MySQL`, `SQL Server` and `PostgreSQL`.
 ### Create RDS instance
 
 ```js
-const rds = require('ali-rds');
+const rds = require('@ostai-mysql');
 
 const db = rds({
   host: 'your-rds-address.mysql.rds.aliyuncs.com',
