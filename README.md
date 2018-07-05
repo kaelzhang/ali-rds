@@ -9,12 +9,12 @@ ali-rds
 
 [npm-image]: https://img.shields.io/npm/v/ali-rds.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/ali-rds
-[travis-image]: https://img.shields.io/travis/ali-sdk/ali-rds.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ali-sdk/ali-rds
-[codecov-image]: https://codecov.io/github/ali-sdk/ali-rds/coverage.svg?branch=master
-[codecov-url]: https://codecov.io/github/ali-sdk/ali-rds?branch=master
-[david-image]: https://img.shields.io/david/ali-sdk/ali-rds.svg?style=flat-square
-[david-url]: https://david-dm.org/ali-sdk/ali-rds
+[travis-image]: https://img.shields.io/travis/kaelzhang/ostai-mysql.svg?style=flat-square
+[travis-url]: https://travis-ci.org/kaelzhang/ostai-mysql
+[codecov-image]: https://codecov.io/github/kaelzhang/ostai-mysql/coverage.svg?branch=master
+[codecov-url]: https://codecov.io/github/kaelzhang/ostai-mysql?branch=master
+[david-image]: https://img.shields.io/david/kaelzhang/ostai-mysql.svg?style=flat-square
+[david-url]: https://david-dm.org/kaelzhang/ostai-mysql
 [download-image]: https://img.shields.io/npm/dm/ali-rds.svg?style=flat-square
 [download-url]: https://npmjs.org/package/ali-rds
 
