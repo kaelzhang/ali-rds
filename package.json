@@ -1,6 +1,6 @@
 {
   "name": "@ostai/mysql",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The altered version of ali-rds",
   "main": "lib/client.js",
   "files": [
@@ -45,7 +45,7 @@
   "engines": {
     "node": ">= 4.0.0"
   },
-  "author": [
+  "authors": [
     "fengmk2 <m@fengmk2.com> (http://fengmk2.com)",
     "kael <i@kael.me> (http://kael.me)"
   ],
