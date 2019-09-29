@@ -19,7 +19,7 @@ describe('sqlstring.test.js', function() {
     });
 
     it('should only patch once', function() {
-      require.cache[require.resolve('../lib/sqlstring')] = null;
+      delete require.cache[require.resolve('../lib/sqlstring')];
       const AnotherSqlString = require('../lib/sqlstring');
       assert.equal(AnotherSqlString.escape(literals.now), 'now()');
       assert.equal(AnotherSqlString.escape(new literals.Literal('sum')), 'sum');
